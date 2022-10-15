@@ -1,0 +1,17 @@
+.aboutSection{
+    min-height: 100vh;
+}
+.accord1 {
+    background-color: transparent !important;
+    color: inherit;
+}
+
+.accord1 button {
+    background-color: transparent;
+    color: inherit;
+}
+
+.accord1 li {
+    background-color: transparent !important;
+    color: inherit;
+}

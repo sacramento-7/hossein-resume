@@ -1,0 +1,11 @@
+.divIcons a:hover{
+    transform: translateY(-7px);
+}
+.divIcons a{
+    text-decoration: none;
+    color: inherit;
+}
+.heroSection{
+    height: 100vh;
+    /* margin-top: -3rem !important; */
+}

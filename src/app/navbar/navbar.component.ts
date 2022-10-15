@@ -1,13 +1,16 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-navbar',
+  templateUrl: './navbar.component.html',
+  styleUrls: ['./navbar.component.css']
 })
-export class AppComponent {
-  title = 'AngularMyResume';
+export class NavbarComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
 
   colors: any = [
     { bgColor: "#2a9d8f", colorText: "#fff" },
@@ -32,4 +35,5 @@ export class AppComponent {
     document.body.style.backgroundColor = colorBody.bgColor;
     document.body.style.color = colorBody.colorText;
   }
+
 }

@@ -1,0 +1,38 @@
+.skillsSection{
+    min-height: 100vh;
+}
+.card2{
+    height: 21rem;
+    transition: transform 0.3s;
+    background-color: transparent;
+    color: inherit;
+}
+@media(max-width: 766px){
+    .card2{
+        height:fit-content;
+    }
+}
+.headingCardIcon{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 1rem; 
+    margin-top: 1.3rem;
+    margin-left: 1.3rem;   
+}
+.card2:hover{
+    transform: rotate(-2deg) !important;
+    box-shadow: 4px 4px 5px rgb(49, 49, 49);
+}
+.fontBold{
+    font-weight: 600;
+}
+
+.active1{
+    background-color: transparent;
+    color: inherit;
+}
+
+.nav-tabs button{
+    color: inherit;
+    background-color: transparent;
+}
